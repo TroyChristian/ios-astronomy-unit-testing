@@ -27,6 +27,7 @@
 		FB5A165323DF9C3200864C52 /* NetworkDataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5A165223DF9C3200864C52 /* NetworkDataLoader.swift */; };
 		FB5A165523DF9D5800864C52 /* URLSession+NetworkDataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5A165423DF9D5800864C52 /* URLSession+NetworkDataLoader.swift */; };
 		FB5A165723DFC83A00864C52 /* MockLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5A165623DFC83A00864C52 /* MockLoader.swift */; };
+		FB5A165A23DFCC3A00864C52 /* validJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5A165823DFCB7600864C52 /* validJSON.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		FB5A165223DF9C3200864C52 /* NetworkDataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDataLoader.swift; sourceTree = "<group>"; };
 		FB5A165423DF9D5800864C52 /* URLSession+NetworkDataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLSession+NetworkDataLoader.swift"; sourceTree = "<group>"; };
 		FB5A165623DFC83A00864C52 /* MockLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockLoader.swift; sourceTree = "<group>"; };
+		FB5A165823DFCB7600864C52 /* validJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = validJSON.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +161,7 @@
 			isa = PBXGroup;
 			children = (
 				9DBD20312140DE100047905E /* URL+Secure.swift */,
+				FB5A165823DFCB7600864C52 /* validJSON.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -308,6 +311,7 @@
 				9DBD20322140DE100047905E /* URL+Secure.swift in Sources */,
 				9DBD201C2140D19D0047905E /* ImageCollectionViewCell.swift in Sources */,
 				9DBD202D2140D38C0047905E /* Cache.swift in Sources */,
+				FB5A165A23DFCC3A00864C52 /* validJSON.swift in Sources */,
 				9DBD20342140DF1D0047905E /* PhotosCollectionViewController.swift in Sources */,
 				FB5A165323DF9C3200864C52 /* NetworkDataLoader.swift in Sources */,
 				9DFE494C2145D37A0009922B /* PhotoDetailViewController.swift in Sources */,
